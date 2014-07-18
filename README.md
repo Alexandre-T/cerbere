@@ -1,4 +1,4 @@
-cerbere
+Cerbere
 =======
 
-PhpCas authentification to use with Zend Framework 2 and CsnUser
+PhpCas authentification to use with Zend Framework 2 and CsnUser and CsnAuthorization
