@@ -39,6 +39,7 @@
             "url": "https://github.com/Jasig/phpCAS"
         }
     ],
+    "minimum-stability"; "dev",
     "require": {
         "php": ">=5.3.3",
         "coolcsn/csn-user" : "dev-master",
