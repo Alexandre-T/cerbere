@@ -4,13 +4,8 @@
   "version" : "1.0.0",
   "require" : {
     "php" : ">=5.3.3",
-    "zendframework/zendframework" : "2.2.5",
-    "jasig/phpcas" : "1.3.x-dev"
+    "zendframework/zendframework" : "2.2.5"
   },
-  "repositories" : [ {
-    "type" : "vcs",
-    "url" : "https://github.com/Jasig/phpCAS"
-  } ],
   "authors" : [ {
     "name" : "Alexandre Tranchant",
     "email" : "Alexandre.Tranchant@gmail.com",
@@ -24,7 +19,7 @@
       "Cerbere\\" : "src/"
     }
   },
-  "type" : "library",
   "license" : "MIT",
+  "type" : "library",
   "homepage" : "https://github.com/Alexandre-T/cerbere"
 }
