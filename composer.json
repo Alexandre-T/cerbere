@@ -1,52 +1,40 @@
 {
-    "name":         "alexandre-t/cerbere",
-    "description":  "Authentication based on phpCas",
-    "type":         "library",
-    "license":      "MIT",
-    "homepage":     "https://github.com/Alexandre-T/Cerbere",
-    "keywords": [
-        "zf2",
-        "csn-user",
-        "doctrine-orm-module",
-        "doctrine",
-        "cas",
-        "phpcas"
-    ],
-    "authors": [
-        {
-            "name":      "Alexandre Tranchant",
-            "email":     "Alexandre.Tranchant@gmail.com",
-            "homepage":  "http://coolcsn.com/",
-            "role":      "Developer"
-        }
-    ],
-    "autoload": {
-        "psr-0": {
-            "Cerbere\\": "src/"
-        }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Alexandre-T/CsnUser"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ghiamar/CsnAuthorization"
-        },        
-        {
-            "type": "vcs",
-            "url": "https://github.com/Jasig/phpCAS"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.3",
-        "coolcsn/csn-user" : "dev-master",
-        "coolcsn/csn-authorization" : "dev-master",
-        "coolcsn/csn-acl-navigation" : "dev-master",
-        "zendframework/zendframework": "2.2.5",
-        "alexandre-t/zend-bootstrap" : "*@dev",
-        "jasig/phpcas" : "1.3.x-dev"
+  "name" : "alexandre-t/cerbere",
+  "description" : "Authentication based on phpCas",
+  "version" : "1.0.0",
+  "require" : {
+    "php" : ">=5.3.3",
+    "coolcsn/csn-user" : "dev-master",
+    "coolcsn/csn-authorization" : "dev-master",
+    "coolcsn/csn-acl-navigation" : "dev-master",
+    "zendframework/zendframework" : "2.2.5",
+    "alexandre-t/zend-bootstrap" : "*@dev",
+    "jasig/phpcas" : "1.3.x-dev"
+  },
+  "repositories" : [ {
+    "type" : "vcs",
+    "url" : "https://github.com/Alexandre-T/CsnUser"
+  }, {
+    "type" : "vcs",
+    "url" : "https://github.com/ghiamar/CsnAuthorization"
+  }, {
+    "type" : "vcs",
+    "url" : "https://github.com/Jasig/phpCAS"
+  } ],
+  "authors" : [ {
+    "name" : "Alexandre Tranchant",
+    "email" : "Alexandre.Tranchant@gmail.com",
+    "homepage" : "https://github.com/Alexandre-T/cerbere",
+    "role" : "Developer"
+  } ],
+  "keywords" : [ "zf2", "csn-user", "doctrine-orm-module", "doctrine", "cas", "phpcas" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-0" : {
+      "Cerbere\\" : "src/"
     }
+  },
+  "license" : "MIT",
+  "type" : "library",
+  "homepage" : "https://github.com/Alexandre-T/Cerbere"
 }
