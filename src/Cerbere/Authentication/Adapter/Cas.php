@@ -6,7 +6,8 @@
  * @copyright Copyright (c) 2005-2014 Alexandre Tranchant
  * @license https://github.com/Alexandre-T/gmao/blob/master/LICENSE MIT
  * @author Alexandre Tranchant <Alexandre.Tranchant@gmail.com>
- */namespace Cerbere\Authentication\Adapter;
+ */
+namespace Cerbere\Authentication\Adapter;
 
 use Zend\Authentication\Adapter;
 use Cerbere\Authentication\CasResult as Result;

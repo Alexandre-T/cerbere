@@ -9,7 +9,7 @@
  * @author Alexandre Tranchant <Alexandre.Tranchant@gmail.com>
  */
 
-namespace Utilisateur\Controller;
+namespace Cerbere\Controller;
 
 use phpCAS;
 use CsnUser\Options\ModuleOptions;
