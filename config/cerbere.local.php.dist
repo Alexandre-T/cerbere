@@ -12,15 +12,15 @@
  */
 
 return array(
-        'cerbere' => array(
-		'host' => "ENTER YOUR CAS SERVER URL",
-		
-		'port' => 443,
-		
-		'context' => "ENTER YOUR CAS SERVER CONTEXT URL",
-		'certificat' => false, //False if u don't use certificat
-		'pathCertificat' => "ENTER YOUR PATH CERTIFICAT",
-		
-		'applicationExitURL' => "ENTER YOUR APPLICATION URL"
+    'cerbere' => array(
+    		'host' => "ENTER YOUR CAS SERVER URL",
+    		
+    		'port' => 443,
+    		
+    		'context' => "ENTER YOUR CAS SERVER CONTEXT URL",
+    		'certificat' => false, //False if u don't use certificat
+    		'pathCertificat' => "ENTER YOUR PATH CERTIFICAT",
+    		
+    		'applicationExitURL' => "ENTER YOUR APPLICATION URL"
 	)
  );
