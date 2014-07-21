@@ -16,7 +16,7 @@ use Zend\View\Model\ViewModel;
 use Zend\Session\SessionManager;
 use CsnUser\Entity\User;
 use CsnUser\Options\ModuleOptions;
-use Utilisateur\Authentication\Adapter\Cas as AdapterCas;
+use Cerbere\Authentication\Adapter\Cas as AdapterCas;
 
 /**
  * Surcharge du controlleur initial de CsnUser
