@@ -10,7 +10,7 @@
         "doctrine-orm-module",
         "doctrine",
         "cas",
-        "phpcas",
+        "phpcas"
     ],
     "authors": [
         {
